@@ -22,11 +22,12 @@ const Products = () => {
 
             }
             return ()=>{
-                componentMounted=false;
+                 // eslint-disable-next-line
+               componentMounted=false;
             }
         }
         getProducts();
-    },[])
+    },[componentMounted])
 
     const Loading = () => {
         return (

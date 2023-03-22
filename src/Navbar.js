@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./Navbar.css"
 
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
@@ -12,12 +12,12 @@ import { NavLink } from 'react-router-dom';
 
   function Navbar({cart}) {
     
-    const navigate = useNavigate();
-    const[product,setProduct]=useState([]);
+    // const navigate = useNavigate();
+    // const[product,setProduct]=useState([]);
   return (
     <div className='header'>
         <NavLink to="/">
-        <img className='header_logo' src="download.png"/>
+        <img className='header_logo' src="download.png" alt="snapdeal-logo"/>
         <span className='snapdeal'>Snapdeal</span>
         </NavLink>
         <div className='header_search'>

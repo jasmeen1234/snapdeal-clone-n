@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import {connect} from 'react-redux';
 import { _register } from '../redux/actions/register';
-import { useDispatch } from 'react-redux'
-import { Constants } from '../redux/constant';
+//import { useDispatch } from 'react-redux'
+//import { Constants } from '../redux/constant';
 
 const RegisterPage = (props)=> {
 

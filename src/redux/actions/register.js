@@ -1,6 +1,6 @@
 import { Constants } from "../constant";
 
-import  { Link } from 'react-router-dom'
+//import  { Link } from 'react-router-dom'
 
 export function _register (register) {
     return (dispatch) => {

@@ -1,10 +1,11 @@
-import { useEffect, useState } from 'react';
+import React from 'react';
 import {connect} from 'react-redux';
 import {useSearchParams , Link}  from 'react-router-dom';
 import { requestLogin, loginSuccess , loginFailed } from '../redux/actions/register';
 
 const LoginPage  = (props) => {
 
+   // eslint-disable-next-line
     const [searchParams , setSearchParams]= useSearchParams();
 
     for (const [key, value] of searchParams) {

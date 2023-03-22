@@ -25,7 +25,7 @@ const Product = () => {
 
        }
        getProduct();
-   },[])
+   },[id])
 
    const Loading = ()=>{
        return(

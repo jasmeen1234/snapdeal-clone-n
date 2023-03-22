@@ -64,30 +64,30 @@ export const Footer = () => {
               <img
                 width={"10%"}
                 src="https://img.icons8.com/color/48/null/mastercard-credit-card.png"
-              />
+              alt=" mastercard" />
             
             
               <img
                 width={"10%"}
                 src="https://img.icons8.com/ios/50/null/visa.png"
-              />
+                alt=" visacard"/>
             
             
               <img
                 width={"10%"}
                 src="https://img.icons8.com/fluency/48/null/paypal.png"
-              />
+                alt=" paypal"/>
             
             
               <img
                 width={"10%"}
                 src="https://img.icons8.com/emoji/48/null/credit-card-emoji.png"
-              />
+                alt=" credit-card" />
             
               <img
                 width={"10%"}
                 src="https://img.icons8.com/ios-filled/50/null/apple-pay.png"
-              />
+                alt=" apple-pay" />
             </HStack>
           </div>
         </div>
@@ -99,30 +99,30 @@ export const Footer = () => {
               <img
                 width={"10%"}
                 src="https://img.icons8.com/fluency/48/null/facebook-new.png"
-              />
+                alt=" facebook" />
             
           
               <img
                 width={"10%"}
                 src="https://img.icons8.com/color/48/null/youtube-play.png"
-              />
+                alt=" youtube" />
            
               <img
                 width={"10%"}
                 src="https://img.icons8.com/color/48/null/twitter--v1.png"
-              />
+                alt=" twitter" />
             
           
               <img
                 width={"10%"}
                 src="https://img.icons8.com/color/48/null/instagram-new--v1.png"
-              />
+                alt=" instagram" />
             
           
               <img
                 width={"10%"}
                 src="https://img.icons8.com/color/48/null/pinterest--v1.png"
-              />
+                alt=" printrest"  />
             
             </HStack>
           </div>

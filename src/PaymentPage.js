@@ -18,7 +18,7 @@ const PaymentPage = () => {
           console.log("Already Login")
           navigate("/")
         };
-      },[])
+      })
 
     const paymentHandler=()=> {
         if(!card || !name || !cvv || !exDate) alert("Please fill all the payment details!!");
