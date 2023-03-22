@@ -1,0 +1,89 @@
+.header_logo{
+    width : 40px;
+    height: 20px;
+    /* margin-right: 58px; */
+}
+.snapdeal{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+}
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color:#e40046;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    padding: 0 20px;
+}
+.header_search{
+    /* display: flex;
+    flex : 1;
+    align-items: center;
+    border-radius: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 6px;
+    height: 50px;
+}
+.header_searchbox{
+    border-radius: 5px 0 0 5px;
+}
+.header_search input{
+    width: 75%;
+    /* flex: 1; */
+    height: 30px;
+    padding:  8px 20px;
+    border: 0;
+    outline: none;
+    border-radius: 2px 0px 0px 2px;
+    font-size: 14px;
+}
+.header_searchIcon{
+    width: 50%;
+    height: 50%;
+    outline: none;
+    border: none;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+    align-items: center;
+    /* border-radius: 0px 2px 2px 0px; */
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header_optionone{
+    font-size: 10px;
+    color:#fff;
+}
+.header_optiontwo{
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+}
+.header_option{
+    display: flex;
+    margin-left:10px;
+    margin-right : 10px;
+    flex-direction: column;
+}
+.header_optionBasket{
+    display: flex;
+    color: #fff;
+    margin-left:10px;
+    margin-right : 10px;
+}
+.LinkLagaya{
+    text-decoration: none !important;
+}
+.iconlagaya{
+    color: #fff;
+}

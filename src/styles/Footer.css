@@ -1,0 +1,62 @@
+.footer1 {
+    width: 100%;
+    background-color: white;
+    height: auto;
+}
+
+/* .footCard {
+    text-align: left;
+    display: flex;
+    justify-content:left;  
+  } */
+.footitems {
+    margin: 40px 10px 0 30px;
+}
+
+.footitems h3 {
+    font-size: 14px;
+    color: #344c55;
+}
+
+.footitems p {
+    font-size: 12px;
+    padding-top: 14px;
+    color: #a5a5a5;
+    cursor: pointer;
+}
+
+.footitems p:hover {
+    text-decoration: underline;
+}
+
+.footitems input {
+    font-size: 13px;
+    color: #999;
+    border: none;
+    border-radius: 2.9px;
+    background-color: #f7f8fa;
+    height: 37.5px;
+    margin-top: 12px;
+}
+
+.footitems input:placeholder-shown {
+    padding-left: 10px;
+}
+
+.footitems button {
+    height: 38px;
+    font-size: 12px;
+    padding: 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-color: #333;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.footitems span {
+    color: #25a8ed;
+    font-size: 12px;
+    cursor: pointer;
+}
