@@ -1,14 +1,14 @@
 .footer1 {
     width: 100%;
-    background-color: white;
+    background-color: rgb(214, 26, 26);
     height: auto;
 }
 
-/* .footCard {
+ .footCard {
     text-align: left;
     display: flex;
     justify-content:left;  
-  } */
+  } 
 .footitems {
     margin: 40px 10px 0 30px;
 }

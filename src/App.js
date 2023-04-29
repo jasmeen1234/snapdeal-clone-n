@@ -8,7 +8,7 @@ import LoginPage from './Login/login';
 import PaymentPage from './PaymentPage'
 import Cart from './components/Cart'
  import Banner from './Banner/Banner'
- import Footer from './Footer'
+//  import Footer from './Footer'
 // import {Routes , Route , Switch }  from 'react-router-dom'
 import RegisterPage from './register/register';
 function App() {
@@ -28,7 +28,7 @@ function App() {
       <Route path="/cart" element={<Cart/>}/> 
     </Routes>
     <Banner/>
-    <Footer/>
+    {/* <Footer/> */}
    </div>
     
   );

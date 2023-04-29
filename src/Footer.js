@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <div>
       <div className={styles.footer1}>
-        <Box className={styles.footCard}  display={'grid'} gridTemplateColumns={{base:"repeat(2,1fr)",sm:"repeat(2,1fr)",md:"repeat(3,1fr)",lg:"repeat(6,1fr)"}} gap={3} margin={'auto'} >
+        <Box className={styles.footCard}  display={'grid'} gridTemplateRows={{base:"repeat(2,1fr)",sm:"repeat(2,1fr)",md:"repeat(3,1fr)",lg:"repeat(6,1fr)"}} gap={3} margin={'auto'} >
           <div className={styles.footitems}>
             <h3>Policy Info</h3>
             <p>Privacy Policy</p>
